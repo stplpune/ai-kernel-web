@@ -1,0 +1,107 @@
+footer {
+    background-color: #1E1D1D;
+    color: #fff;
+    padding-top: 3rem;
+}
+
+footer h4 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+footer h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+footer h4 span {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+footer p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: 1.5rem;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0.85rem;
+    display: inline-block;
+    columns: 2;
+}
+
+footer ul li {
+    line-height: 2rem;
+}
+
+footer ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: var(--main-color);
+}
+
+footer .input-group {
+    border: none;
+    box-shadow: none;
+    border-bottom: solid 1px #aaa;
+}
+
+footer .input-group .input-group-text {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 0;
+    font-size: 0.85rem;
+}
+
+footer .input-group .form-control {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 0;
+    font-size: 0.85rem;
+    box-shadow: none;
+}
+
+footer .input-group .form-control::placeholder {
+    color: #aaa;
+}
+
+footer .btn {
+    font-size: 0.85rem;
+    box-shadow: none;
+}
+
+footer .copy {
+    font-size: 1.3rem;
+}
+
+footer #bottom {
+    font-size: 0.85rem;
+}
+
+footer #bottom a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer #bottom a:hover {
+    color: var(--main-color);
+}
+
+footer #bottom i {
+    background: var(--bg-gradient);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px 0 10px 10px;
+}
