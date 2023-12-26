@@ -5,4 +5,19 @@ body {
 
 body {
     font-family: 'Inter', sans-serif;
+    background: var(--bg-gradient);
+}
+
+:root {
+    --bg-gradient: linear-gradient(90deg, #EFC057 0%, #F0A55F 13%, #F17C6B 26%, #F25C74 41%, #D15495 58%, #8F6DC7 79%, #5485F4 100%);
+}
+
+.text-gradient {
+    background: #EFC057;
+    background: -webkit-linear-gradient(to right, #EFC057 0%, #F0A55F 13%, #F17C6B 26%, #F25C74 41%, #D15495 58%, #8F6DC7 79%, #5485F4 100%);
+    background: -moz-linear-gradient(to right, #EFC057 0%, #F0A55F 13%, #F17C6B 26%, #F25C74 41%, #D15495 58%, #8F6DC7 79%, #5485F4 100%);
+    background: linear-gradient(to right, #EFC057 0%, #F0A55F 13%, #F17C6B 26%, #F25C74 41%, #D15495 58%, #8F6DC7 79%, #5485F4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
