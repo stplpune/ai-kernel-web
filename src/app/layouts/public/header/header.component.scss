@@ -34,6 +34,8 @@ nav.navbar .dropdown-menu .dropdown-item {
     border-bottom: solid 1px rgba(0, 0, 0, 0.175) !important;
 }
 
+nav.navbar .dropdown-menu .dropdown-item.active,
+nav.navbar .dropdown-menu .dropdown-item:active,
 nav.navbar .dropdown-menu .dropdown-item:hover {
     background-color: var(--main-color);
     color: #fff;
