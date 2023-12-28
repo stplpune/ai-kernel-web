@@ -1,0 +1,53 @@
+.about-us-banner{
+    // background-image: url(../../../../assets/images/contact-us-images/Contact-Us.png);
+    background-size: cover !important;
+    background-position: center;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/About-us/group-people-working-out-business-plan-office.png");
+}
+.our-vision-banner{
+    // background-image: url(../../../../assets/images/contact-us-images/Contact-Us.png);
+    background-size: cover !important;
+    padding:15px;
+    background-position: center;
+    height: 500px;
+    background: url("../../../../../assets/images/About-us/our-vision-banner.png");
+}
+.our-vision-card img{
+    position: absolute;
+    top: -27px;
+    width: 75px;
+    left: 39%;
+}
+.our-vision-card{
+    border: 0;
+    box-shadow: #6721FF45 0px 5px 15px;
+    border-radius: 5%;
+    transition: all 0.5s;
+}
+.core-values:hover,
+.our-vision-card:hover {
+   background-color: #191838;
+   color: white;
+}
+.our-vision-card:hover a{
+   color: white;
+}
+.our-vision-card a{
+    text-decoration: none;
+    color: #151515;
+}
+.out-patents
+{
+    background-color:#191838 ;
+    padding: 35px;
+    color: white;
+}
+.core-values{
+    border-right: 1px solid #191838;
+    padding: 25px;
+    transition: all 0.5s;
+}
