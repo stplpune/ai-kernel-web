@@ -1,0 +1,56 @@
+.contact-us-banner{
+    // background-image: url(../../../../assets/images/contact-us-images/Contact-Us.png);
+    background-size: cover !important;
+    background-position: center;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../assets/images/contact-us-images/Contact-Us.png");
+}
+.contact-us-card{
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 632px;
+    height: 100%;
+}
+.ai-squre-img{
+    height: 300px;
+    width: 300px;
+}
+.contact-us .carousel{
+    position: absolute;
+    left: 220px;
+}
+button.carousel-control-next {
+    background-color: blue;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 130px;
+    border-radius: 50%;
+}
+button.carousel-control-prev {
+    background-color: blue;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 130px;
+    border-radius: 50%;
+}
+span.carousel-control-prev-icon ,
+span.carousel-control-next-icon{
+    height: 20px !important;
+}
+.contact-us-list {
+    padding: 0;
+}
+.contact-us-list  li{
+    list-style-type: none !important;
+    line-height: 2rem;
+}
+.contact-us-list  li::before {
+    content: "\2192"; 
+    color: var(--main-color); 
+    margin-right: 5px;
+  }
