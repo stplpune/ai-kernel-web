@@ -1,10 +1,10 @@
-#covid19-banner-img{
-    background-image: url('../../../../../assets/images/explore_charlie/what-is-charlie.png');
-    height: 100vh;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
+.charlie-banner{
+  // background-image: url(../../../../assets/images/contact-us-images/Contact-Us.png);
+  background-size: cover !important;
+  background-position: center;
+  height: 90vh;
+  background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/explore_charlie/charlies.png");
+} 
   section{
     padding: 0px 0px;
   }
