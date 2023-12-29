@@ -1,0 +1,73 @@
+.retail-banner{
+    // background-image: url(../../../../assets/images/contact-us-images/Contact-Us.png);
+    background-size: cover !important;
+    background-position: center;
+    height: 90vh;
+    background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/hospitality/content-girls-sharing-with-purchases.png");
+}
+.key-features-banner{
+    background-size: cover !important;
+    background-position: center;
+    background: url("../../../../../assets/images/hospitality/key-features-banner.png");
+}
+.why-use-charlie{
+    background-size: cover !important;
+    padding:15px;
+    background-position: center;
+    background: url("../../../../../assets/images/hospitality/why-use-charlie-banner.png");
+}
+.go-ahed{
+    background-size: cover !important;
+    padding:40px;
+    background-position: center;
+    background: url("../../../../../assets/images/page-retail/go-ahed-banner.jpg");
+}
+.hospitality-list {
+    padding: 0;
+}
+.hospitality-list  li{
+    list-style-type: none !important;
+    line-height: 2rem;
+}
+.hospitality-list  li::before {
+    content: "\2192"; 
+    color: var(--main-color); 
+    margin-right: 5px;
+  }
+  .why-use-charlie .card{
+  box-shadow: rgba(190, 33, 204, 0.2) 0px 2px 8px 0px;
+  }
+  .hospitality-card{
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 632px;
+    height: 100%;
+}
+.ai-squre-img{
+    height: 300px;
+    width: 300px;
+}
+.hospitality .carousel{
+    position: absolute;
+    left: 220px;
+}
+button.carousel-control-next {
+    background-color: blue;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 130px;
+    border-radius: 50%;
+}
+button.carousel-control-prev {
+    background-color: blue;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 130px;
+    border-radius: 50%;
+}
+span.carousel-control-prev-icon ,
+span.carousel-control-next-icon{
+    height: 20px !important;
+}
