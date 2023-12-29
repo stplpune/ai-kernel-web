@@ -22,6 +22,12 @@
     background-position: center;
     background: url("../../../../../assets/images/page-retail/go-ahed-banner.jpg");
 }
+.hand-shake-banner{
+    background-size: cover !important;
+    background-position: center;
+    height: 400px;
+    background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/page-retail/hand-shake.png");
+}
 .hospitality-list {
     padding: 0;
 }
@@ -51,7 +57,7 @@
     position: absolute;
     left: 220px;
 }
-button.carousel-control-next {
+.hospitality  button.carousel-control-next {
     background-color: blue;
     position: relative;
     width: 50px;
@@ -59,7 +65,7 @@ button.carousel-control-next {
     top: 130px;
     border-radius: 50%;
 }
-button.carousel-control-prev {
+.hospitality button.carousel-control-prev {
     background-color: blue;
     position: relative;
     width: 50px;
