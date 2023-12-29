@@ -1,0 +1,125 @@
+#banner-content{
+  background-image: url('../../../../../assets/images/industries_we_serve/ai_public_sector.png');
+  height: 90vh;
+  width: 100%;
+}
+
+.overlay{
+  background: linear-gradient(109deg, #0C0B1D 0%, #16122D 53%, #24153D 100%);
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  opacity: 0.5;
+}
+.text-overlay{
+  position: absolute;
+  top: 0;
+  color: #fff;
+}
+// section{
+//   padding: 100px 0px;
+// }
+#impact_infrastructure img{
+  border-radius: 20px;
+}
+#impact_infrastructure ul li{
+  padding: 5px 0px;
+}
+
+#book_demo{
+  background: #191838DB 0% 0% no-repeat padding-box;
+  padding: 50px 0px;
+  color: #fff;
+}
+
+
+#testimonials img.ai_img{
+  width: 350px;
+}
+#testimonials .carousel-inner .carousel-item .profile-img{
+  width: 100px !important;
+  border-radius: 50%;
+}
+
+#testimonials .card.card-body{
+  position: absolute;
+  left: 40%;
+  width: 600px;
+  border: none;
+  padding: 20px 40px;
+}
+
+#testimonials .card.card-body .carousel-indicators [data-bs-target]{
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  /* margin-right: 3px; */
+  /* margin-left: 3px; */
+  margin-top: 20px !important;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  border-radius: 50% !important;
+  margin-top: 32px !important;
+}
+
+
+.success_stories_slider img{
+  width: 100% !important;
+  height: 200px;
+  padding: 0;
+}
+
+#contactus {
+  background-image: url('../../../../../assets/images/industries_we_serve/mumbai-skyline-skyscrapers-construction.png');
+  height: 60vh;
+  width: 100%;
+  padding: 0;
+}
+.contact_overlay{
+  position: relative;
+  top: 0;
+  height:100%;
+  width: 100%;
+  background-color: #170F0C;
+  opacity: 0.87;
+}
+.contact_overlay_text{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+}
+#book_demo button {
+  color: #24153D;
+  font-weight: bold;
+}
+.fa-greater-than {
+  background-color: #24153D;
+  /* padding: 5px; */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  color: #fff;
+  font-size: 8px;
+}
+
+section#key_features,
+section#why_use_charlie,
+section#impact_infrastructure,
+section#our_clients,
+section#book_demo,
+section#testimonials,
+section#success_stories,
+section#featured_content{
+  padding-block: 4rem !important;
+}
