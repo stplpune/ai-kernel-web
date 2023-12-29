@@ -1,0 +1,96 @@
+#success_stories{
+  background-image: url('../../../../assets/images/success_stories/success_stories_banner.png');
+  height: 80vh;
+  width: 100%;
+  padding: 0;
+}
+.banner_overlay{
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(102deg, #0C0B1D 0%, #16122D 53%, #24153D 100%);
+  opacity: 0.76;
+}
+.banner_overlay_text{
+  position: absolute;
+  top: 0;
+  color: #fff;
+}
+
+#success_stories_videos iframe{
+  border-radius: 20px;
+  height: 250px;
+}
+
+#success_stories_digital_innovation{
+  background-color: #191838;
+  color: #fff;
+  text-align: center;
+}
+#success_stories_digital_innovation .digital_innovation_title{
+  font-size: 35px;
+}
+
+.digital_innovation_sectors{
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.digital_innovation_sectors img{
+  width: 100px;
+  padding: 25px;
+}
+
+.read_more{
+  color: #000;
+}
+
+// .innovation_sectors_cards .card,
+// .innovation_sectors_cards .card .card-body{
+//   padding: 0 !important;
+// }
+// .innovation_sectors_cards .card .card-body img{
+//   border-radius: 0 !important;
+// }
+
+.innovation_sectors_cards .card .card-body p{
+  display: none;
+  // visibility: none;
+  transition: 1s;
+
+}
+.innovation_sectors_cards .card,
+.innovation_sectors_cards .card:hover {
+  height: 400px !important;
+}
+.innovation_sectors_cards .card:hover .card-body p{
+  display: block;
+  // visibility: visible;
+  margin: 10px 0px;
+  transition: 1s;
+
+}
+.innovation_sectors_cards .card:hover img{
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  transition: 1s;
+}
+.innovation_sectors_cards .card .read_more {
+  padding: 15px;
+  transition: 1s;
+}
+.innovation_sectors_cards .card:hover .read_more {
+  background: linear-gradient(90deg, #F0B95A 0%, #D7558F 49%, #5A83F0 100%);
+  color: #fff;
+  padding: 15px;
+  transition: 1s;
+
+}
+
+section#success_stories_digital_innovation,
+section#success_stories_videos
+{
+  padding-block: 4rem !important;
+}
