@@ -1,0 +1,125 @@
+#banner_img_left_side{
+  background-image: url('../../../../assets/images/charlie_in_media/banner-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  padding: 0;
+}
+.overlay_banner{
+  position: relative;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(110deg, #0C0B1D 0%, #16122D 53%, #24153D 100%);
+  opacity: 0.76;
+}
+
+#banner_right_side{
+  background-color: #191838;
+
+}
+.right_side_overlay{
+  position: relative;
+  top: 0;
+  background-color: #191838;
+  color: #fff;
+}
+.text-overlay{
+  color: #fff;
+}
+
+#charlie_media_carousel .carousel .carousel-item img{
+  width: 130px;
+  height: 110px;
+}
+
+#charlie_media_carousel .carousel-control-prev{
+  position: absolute;
+  left: -50px;
+  color: #000;
+  background-color: #000;
+  width: 30px;
+  height: 30px;
+  top: 25%;
+  border-radius: 50%;
+}
+
+#charlie_media_carousel .carousel-control-next{
+  position: absolute;
+  right: -50px;
+  color: #000;
+  background-color: #000;
+  width: 30px;
+  height: 30px;
+  top: 25%;
+  border-radius: 50%;
+}
+
+
+#gallery {
+  background-color: #EEF9FD !important;
+}
+#gallery .carousel img{
+  width: 100%;
+  height: 100%;
+}
+#gallery .carousel .right_upper_img img{
+  height: 210px;
+}
+
+.charlie_goes_live span{
+  color: #F56140;
+}
+
+
+#gallery .carousel-control-prev{
+  position: absolute;
+  left: -50px;
+  color: #000;
+  background-color: #000;
+  width: 30px;
+  height: 30px;
+  top: 25%;
+  border-radius: 50%;
+}
+
+#gallery .carousel-control-next{
+  position: absolute;
+  right: -50px;
+  color: #000;
+  background-color: #000;
+  width: 30px;
+  height: 30px;
+  top: 25%;
+  border-radius: 50%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+{
+  width: 20px;
+}
+
+#video span{
+  color: #F56140;
+}
+#video .left_side_video iframe{
+  width: 100%;
+  height: 445px;
+}
+
+#video ul.right_side_video_list{
+  height: 400px;
+  overflow-y: scroll;
+}
+
+#video ul.right_side_video_list li{
+  padding: 10px 0px;
+}
+
+
+section#video,
+section#gallery,
+section#charlie_media_carousel{
+  padding-block: 4rem;
+}
