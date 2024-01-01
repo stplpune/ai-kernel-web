@@ -54,6 +54,10 @@ header #clients .card {
     text-align: center;
 }
 
+header #clients .card:hover {
+    background: var(--bg-gradient);
+}
+
 header #clients .card img {
     width: 18px;
     margin-right: 5px;
@@ -63,24 +67,35 @@ header #clients .card p {
     margin-bottom: 0px;
 }
 
-header #stats {
+header #statistics {
     padding-block: 3rem;
 }
 
-header #stats img {
-    height: 36px;
+header #statistics .card {
+    background-color: transparent;
+    border: none;
+}
+
+header #statistics .card:hover {
+    background-color: #07062B;
+}
+
+header #statistics img {
+    height: 30px;
     margin-bottom: 1rem;
+    margin-right: auto;
 }
 
-header #stats img.point {
+header #statistics img.point {
     height: 20px;
+    margin: 0;
 }
 
-header #stats h5 {
+header #statistics h5 {
     margin-bottom: 0rem;
 }
 
-header #stats p {
+header #statistics p {
     font-size: 0.85rem;
     margin-bottom: 0rem;
 }
