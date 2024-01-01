@@ -99,3 +99,36 @@ header #statistics p {
     font-size: 0.85rem;
     margin-bottom: 0rem;
 }
+
+section {
+    padding-block: 3rem;
+}
+
+#what-we-do {
+    background-color: #EEF9FD;
+}
+
+#what-we-do h3,
+#what-we-do h6 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#what-we-do p {
+    font-size: 0.85rem;
+    line-height: 1.7rem;
+}
+
+#what-we-do a {
+    font-size: 0.85rem;
+    background: var(--bg-gradient);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+#what-we-do #carouselCharlie img {
+    width: 100%;
+    height: 350px;
+}
