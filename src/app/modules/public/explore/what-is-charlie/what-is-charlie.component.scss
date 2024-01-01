@@ -1,36 +1,41 @@
-.charlie-banner{
+.charlie-banner {
   // background-image: url(../../../../assets/images/contact-us-images/Contact-Us.png);
   background-size: cover !important;
   background-position: center;
   height: 90vh;
-  background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/explore_charlie/charlies.png");
-} 
-  section{
-    padding: 0px 0px;
-  }
-  
-  section#newsletter{
-    background-color: #0d6efd;
-    color: #fff;
-  }
-  .logo{
-     top: 225px;
-     left: 96px;
-     width: 100px;
-     height: 50px;
-mix-blend-mode: screen;
-opacity: 1;
-  }
-  .backgroundcol{
-    background-color: #EDF8FC;
-  }
-  .charlie{
-    top: 1424px;
-left: 1073px;
-width: 807px;
-height: 204px;
-border: 1px solid #707070;
-opacity: 1;
-margin: 30px;
-  }
-  
+  background: -webkit-linear-gradient(rgb(22, 18, 45, 0.7), rgba(36, 21, 61, 0.5)), url("../../../../../assets/images/explore_charlie/charlies.png");
+}
+.ai-squre-img{
+    height: 300px;
+    width: 300px;
+}
+.contact-us .carousel{
+    position: absolute;
+    left: 220px;
+}
+.Testimonials button.carousel-control-next {
+    background-color: blue;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 130px;
+    border-radius: 50%;
+}
+.Testimonials button.carousel-control-prev {
+    background-color: blue;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 130px;
+    border-radius: 50%;
+}
+.Testimonialsspan.carousel-control-prev-icon ,
+.Testimonialsspan.carousel-control-next-icon{
+    height: 20px !important;
+}
+.hand-shake-banner{
+  background-size: cover !important;
+  background-position: center;
+  height: 400px;
+  background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/page-retail/hand-shake.png");
+}
