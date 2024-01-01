@@ -50,33 +50,71 @@
     background-color: #F6F1FF;
     color: #24153D;
 }
-.tech{
-    top: 4598px;
-    left: 354px;
-    width: 250px;
-    height: 71px;
-    opacity: 1;
+// .tech{
+//     top: 4598px;
+//     left: 354px;
+//     width: 250px;
+//     height: 71px;
+//     opacity: 1;
+// }
+// .micro{
+//     top: 4517px;
+//     left: 647px;
+//     width: 338px;
+//     height: 253px;
+//     opacity: 1;
+// }
+// .intel{
+
+//     top: 4517px;
+//     left: 647px;
+//     width: 338px;
+//     height: 253px;
+//     opacity: 1;
+// }
+// .raymond{
+
+//     top: 4517px;
+//     left: 647px;
+//     width: 338px;
+//     height: 253px;
+//     opacity: 1;
+// }
+
+#testimonials img.ai_img{
+  width: 350px;
 }
-.micro{
-    top: 4517px;
-    left: 647px;
-    width: 338px;
-    height: 253px;
-    opacity: 1;
+#testimonials .carousel-inner .carousel-item .profile-img{
+  width: 100px !important;
+  border-radius: 50%;
 }
-.intel{
-   
-    top: 4517px;
-    left: 647px;
-    width: 338px;
-    height: 253px;
-    opacity: 1;
+
+#testimonials .card.card-body{
+  position: absolute;
+  left: 40%;
+  width: 600px;
+  border: none;
+  padding: 20px 40px;
 }
-.raymond{
-   
-    top: 4517px;
-    left: 647px;
-    width: 338px;
-    height: 253px;
-    opacity: 1;
+
+#testimonials .card.card-body .carousel-indicators [data-bs-target]{
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  /* margin-right: 3px; */
+  /* margin-left: 3px; */
+  margin-top: 20px !important;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  border-radius: 50% !important;
+  margin-top: 32px !important;
 }
