@@ -100,10 +100,6 @@ header #statistics p {
     margin-bottom: 0rem;
 }
 
-section {
-    padding-block: 3rem;
-}
-
 #what-we-do {
     background-color: #EEF9FD;
 }
@@ -155,4 +151,78 @@ section {
     background-color: var(--main-color);
     margin-block: 0;
     border-radius: 50%;
+}
+
+#industries {
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("../../../../assets/images/home/industries.png");
+    background-position: bottom;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+#industries .tab-content h1 {
+    font-size: 2.5rem;
+}
+
+#industries .tab-content h1,
+#industries .tab-content p {
+    color: #fff;
+}
+
+#industries .tab-content p {
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+#industries .tab-content h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#industries .tab-content a {
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: var(--main-color);
+    border: solid 1px var(--main-color);
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+#industries .tab-content a:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+#industries .tab-content a i {
+    margin-left: 5px;
+}
+
+#industries .tab-content .number {
+    background-color: #fff;
+    width: fit-content;
+    font-size: 9rem;
+    color: #E0EBED;
+    position: absolute;
+    top: -190px;
+    right: 13px;
+    width: 200px;
+    height: 200px;
+    line-height: 190px;
+    text-align: center;
+}
+
+#industries .nav .nav-link {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+#industries .nav .nav-link.active,
+#industries .nav .nav-link:active,
+#industries .nav .nav-link:hover {
+    color: var(--main-color);
 }
