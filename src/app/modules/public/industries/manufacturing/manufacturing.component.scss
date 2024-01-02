@@ -118,3 +118,30 @@
   border-radius: 50% !important;
   margin-top: 32px !important;
 }
+#success_stories .carousel img{
+  width: 100% !important;
+  height: 200px;
+  padding: 0;
+  position: relative;
+}
+#success_stories .overlay{
+  // position: absolute;
+  // top: 0;
+  // background: linear-gradient(109deg, #0C0B1D 0%, #16122D 53%, #24153D 100%);
+  // background-image: url('../../../../../assets/images/industries_we_serve/card_overlay.svg');
+  // height: 100%;
+
+  background: linear-gradient(109deg, #0C0B1D 0%, #16122D 53%, #24153D 100%);
+position: absolute;
+top: 0;
+height: 100%;
+width: 100%;
+opacity: 0.5;
+}
+
+.text-overlay{
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  color: #fff;
+}
