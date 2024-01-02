@@ -1,0 +1,72 @@
+#publication_banner_content{
+  background-image: url('../../../../../assets/images/insigts-and-resorces/Publications.png');
+  background-position: right;
+  height: 80vh;
+  width: 100%;
+}
+
+.overlay{
+  // background: linear-gradient(90deg, #EFBD58 0%, #E45881 49%, #6080EA 100%);
+  background: rgba(0,0,0,0.5);
+  position: relative;
+  height: 80vh;
+  width: 100%;
+}
+.text-overlay{
+  position: absolute;
+  top: 0;
+  color: #fff;
+}
+
+#publication_banner_content .text-overlay div{
+  font-size: 5rem;
+  background: var(--bg-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#our_publication .card,
+#our_publication .card:hover{
+  height: 370px !important;
+  transition: 0.5s;
+  border: none;
+}
+ .card .card-body img.calendar_img{
+  width: 20px;
+  height: 20px;
+}
+#our_publication .card img.freq_mod_img{
+  height: 200px;
+  width: 100%;
+}
+#our_publication .card:hover img.freq_mod_img{
+  height: 100px;
+  width: 100%;
+}
+#our_publication .card .card-body p{
+  display: none;
+}
+
+#our_publication .card:hover .card-body p{
+  display: block;
+}
+
+.card:hover .card-footer{
+  background: linear-gradient(90deg, #EFB85A 0%, #D7558F 49%, #5A82EF 100%);
+  color: #fff;
+}
+
+#our_patents{
+  background-color: #F2F7FB;
+}
+#our_patents .card-banner-img{
+  width: 100%;
+}
+#our_patents span{
+  color: #F96445;
+}
+
+section#our_patents,
+section#our_publication{
+  padding-block: 4rem;
+}
