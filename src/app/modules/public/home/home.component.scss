@@ -128,7 +128,31 @@ section {
     text-decoration: none;
 }
 
+#what-we-do #carouselCharlie img-comparison-slider,
 #what-we-do #carouselCharlie img {
     width: 100%;
     height: 350px;
+}
+
+#what-we-do #carouselCharlie .carousel-control-prev,
+#what-we-do #carouselCharlie .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background: var(--bg-gradient);
+    border-radius: 50%;
+}
+
+#what-we-do #carouselCharlie .carousel-control-prev .carousel-control-prev-icon,
+#what-we-do #carouselCharlie .carousel-control-next .carousel-control-next-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#what-we-do #carouselCharlie .carousel-indicators button {
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: var(--main-color);
+    margin-block: 0;
+    border-radius: 50%;
 }
