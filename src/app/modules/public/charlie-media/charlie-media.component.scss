@@ -1,10 +1,13 @@
+#charlie_media_banner{
+  padding-block: 0;
+}
 #banner_img_left_side{
   background-image: url('../../../../assets/images/charlie_in_media/banner-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
   width: 100%;
-  padding: 0;
+  padding-block: 0;
 }
 .overlay_banner{
   position: relative;
