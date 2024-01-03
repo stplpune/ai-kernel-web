@@ -194,7 +194,7 @@ header #statistics p {
 }
 
 #industries .tab-content a:hover {
-    background-color: var(--main-color);
+    background: var(--bg-gradient);
     color: #fff;
 }
 
@@ -286,4 +286,27 @@ header #statistics p {
 #platform .card-img-top {
     height: 340px;
     margin-bottom: 1rem;
+}
+
+#freedemo {
+    background-color: #191838;
+}
+
+#freedemo h3 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+#freedemo a {
+    background-color: #fff;
+    text-decoration: none;
+    color: var(--main-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+}
+
+#freedemo a:hover {
+    background: var(--bg-gradient);
+    color: #fff;
 }
