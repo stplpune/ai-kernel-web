@@ -194,7 +194,7 @@ header #statistics p {
 }
 
 #industries .tab-content a:hover {
-    background-color: var(--main-color);
+    background: var(--bg-gradient);
     color: #fff;
 }
 
@@ -255,4 +255,58 @@ header #statistics p {
 
 #implementation .icon-container img {
     width: 45px;
+}
+
+#platform {
+    background-color: #EEF9FD;
+}
+
+#platform h3 {
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+#platform p {
+    font-size: 0.85rem;
+}
+
+#platform .card {
+    border: none;
+    border-top: solid 5px var(--main-color);
+    border-radius: 0;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1607843137);
+}
+
+#platform .card-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+#platform .card-img-top {
+    height: 340px;
+    margin-bottom: 1rem;
+}
+
+#freedemo {
+    background-color: #191838;
+}
+
+#freedemo h3 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+#freedemo a {
+    background-color: #fff;
+    text-decoration: none;
+    color: var(--main-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+}
+
+#freedemo a:hover {
+    background: var(--bg-gradient);
+    color: #fff;
 }
