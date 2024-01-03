@@ -486,3 +486,38 @@ header #statistics p {
     background-color: #fff;
     color: #151515;
 }
+
+#gettouch {
+    background-image: linear-gradient(0deg, #1E1D1D 0%, #1E1D1D 50%, #EEF9FD 50%, #EEF9FD 100%);
+}
+
+#gettouch #getbg {
+    background: var(--bg-gradient);
+    width: 80%;
+    padding: 30px;
+    color: #fff;
+}
+
+#gettouch #getbg h3 {
+    margin-bottom: 1rem;
+}
+
+#gettouch #getbg p {
+    margin-bottom: 0rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+#gettouch #getbg a {
+    font-size: 0.85rem;
+    color: var(--main-color);
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+#gettouch #getbg a:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
