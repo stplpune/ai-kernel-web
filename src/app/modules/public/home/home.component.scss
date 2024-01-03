@@ -310,3 +310,31 @@ header #statistics p {
     background: var(--bg-gradient);
     color: #fff;
 }
+
+#awards {
+    background-color: #EEF9FD;
+}
+
+#awards h3 {
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+#awards p {
+    font-size: 0.85rem;
+}
+
+#awards .card {
+    border: none;
+    text-align: center;
+}
+
+#awards .card img {
+    width: 80px;
+    margin: 0 auto;
+}
+
+#awards .card .card-text {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
