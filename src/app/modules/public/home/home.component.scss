@@ -256,3 +256,34 @@ header #statistics p {
 #implementation .icon-container img {
     width: 45px;
 }
+
+#platform {
+    background-color: #EEF9FD;
+}
+
+#platform h3 {
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+#platform p {
+    font-size: 0.85rem;
+}
+
+#platform .card {
+    border: none;
+    border-top: solid 5px var(--main-color);
+    border-radius: 0;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1607843137);
+}
+
+#platform .card-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+#platform .card-img-top {
+    height: 340px;
+    margin-bottom: 1rem;
+}
