@@ -226,3 +226,33 @@ header #statistics p {
 #industries .nav .nav-link:hover {
     color: var(--main-color);
 }
+
+#implementation .icon-container {
+    border: solid 1px #aaa;
+    border-radius: 50%;
+    width: 85px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#implementation .separator {
+    width: 13%;
+    margin-top: 1rem;
+    margin-inline: 0.2rem;
+}
+
+#implementation .w-15 {
+    width: 15%;
+}
+
+#implementation .name {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#implementation .icon-container img {
+    width: 45px;
+}

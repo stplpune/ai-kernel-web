@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.839" height="46.24" viewBox="0 0 62.839 46.24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.307" x2="1" y2="0.924" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#efc057"/>
+      <stop offset="0.125" stop-color="#f0a55f"/>
+      <stop offset="0.257" stop-color="#f17c6b"/>
+      <stop offset="0.413" stop-color="#f25c74"/>
+      <stop offset="0.584" stop-color="#d15495"/>
+      <stop offset="0.751" stop-color="#8f6dc7"/>
+      <stop offset="1" stop-color="#5485f4"/>
+    </linearGradient>
+  </defs>
+  <path id="Charlie_AI_Engine_" data-name="Charlie (AI Engine)" d="M35.589,2.014H47.511L30.781-44.226H17.739L1.008,2.014H12.8l2.766-8.168H32.823ZM29.924-14.849h-11.4l5.665-16.928ZM52.583,2.014H63.847v-46.24H52.583Z" transform="translate(-1.008 44.226)" fill="url(#linear-gradient)"/>
+</svg>
