@@ -386,3 +386,103 @@ header #statistics p {
     width: 16px;
     height: 16px;
 }
+
+#media {
+    background-color: #EEF9FD;
+}
+
+#media h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#media p {
+    font-size: 0.85rem;
+    line-height: 24px;
+}
+
+#media a.learnmore {
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: var(--main-color);
+    border: solid 1px var(--main-color);
+    padding: 8px 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+#media a.learnmore:hover {
+    background: var(--bg-gradient);
+    color: #fff;
+}
+
+#media #carouselMedia .carousel-item img {
+    height: 270px;
+    object-fit: cover;
+}
+
+#media #carouselMedia .carousel-control-prev,
+#media #carouselMedia .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background: var(--bg-gradient);
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#media #carouselMedia .carousel-control-prev .carousel-control-prev-icon,
+#media #carouselMedia .carousel-control-next .carousel-control-next-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#media #carouselMedia .carousel-indicators button {
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: #333;
+    margin-block: 0;
+    border-radius: 50%;
+}
+
+#media #carouselMedia .carousel-caption {
+    left: 5%;
+    top: 5%;
+    text-align: left;
+}
+
+#media #carouselMedia .carousel-caption span.badge {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#media #carouselMedia .carousel-caption h5 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+
+#media #carouselMedia .carousel-caption p {
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+
+#media #carouselMedia .carousel-caption a.read {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 7px 15px;
+    border-radius: 30px;
+    font-weight: 100;
+}
+
+#media #carouselMedia .carousel-caption a.read:hover {
+    background-color: #fff;
+    color: #151515;
+}
