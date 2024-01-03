@@ -1,0 +1,36 @@
+.careers-culture-banner {
+    width: 100%;
+    height: 70vh;
+    background-image: -webkit-linear-gradient(rgb(11 8 24 / 74%), rgb(32 18 57 / 57%)),
+        url('../../../../../assets/images/About-us/group-people-working-out-business-plan-office.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.employe-benefit .employe-benefit-card {
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.employe-benefit .employe-benefit-card:hover {
+    color: #fff;
+    background-color: rgb(25, 24, 56);
+}
+
+.employe-benefit .employe-benefit-card img,
+.explore-positions .explore-image {
+    width: 36px;
+    height: 36px;
+}
+
+.explore-positions {
+    width: 100%;
+    height: auto;
+    background-color: rgb(25, 24, 56);
+}
+
+.explore-positions ul li .image-icon{
+    width: 16px;
+}
