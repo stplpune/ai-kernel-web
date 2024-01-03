@@ -499,7 +499,7 @@ header #statistics p {
 }
 
 #gettouch #getbg h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
 }
 
 #gettouch #getbg p {
@@ -520,4 +520,88 @@ header #statistics p {
 #gettouch #getbg a:hover {
     background-color: var(--main-color);
     color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    header h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    header p {
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    header #clients .card {
+        border-inline: none;
+        border-radius: 0;
+    }
+
+    header #statistics .card {
+        text-align: center;
+    }
+
+    header #statistics img {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    header #statistics p {
+        font-size: 0.75rem;
+    }
+
+    #what-we-do p {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
+    #industries .tab-content .number {
+        display: none;
+    }
+
+    #industries .tab-content p {
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.4rem;
+    }
+
+    #industries .tab-content h1 {
+        font-size: 1.8rem;
+    }
+
+    #industries .nav .nav-link {
+        font-size: 0.75rem;
+    }
+
+    #industries {
+        height: 55vh;
+    }
+
+    #industries .tab-content h3 {
+        font-size: 1.2rem;
+    }
+
+    #implementation .separator {
+        display: none;
+    }
+
+    #implementation .w-15 {
+        width: 30%;
+    }
+
+    #valuable .tab-content img {
+        height: 50px;
+    }
+
+    #gettouch #getbg {
+        width: 95%;
+        padding: 15px;
+    }
 }
