@@ -288,6 +288,16 @@ header #statistics p {
     margin-bottom: 1rem;
 }
 
+#platform .carousel-control-prev,
+#platform .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background: var(--bg-gradient);
+    opacity: 1;
+    border-radius: 50%;
+    top: 43%;
+}
+
 #freedemo {
     background-color: #191838;
 }
@@ -337,4 +347,42 @@ header #statistics p {
 #awards .card .card-text {
     font-size: 0.85rem;
     font-weight: 600;
+}
+
+#valuable .nav-link {
+    font-size: 0.85rem;
+    color: #151515;
+    font-weight: 600;
+    padding-inline: 30px;
+}
+
+#valuable .nav-link.active {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+#valuable .tab-content {
+    padding-top: 2rem;
+}
+
+#valuable .tab-content img {
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#valuable .carousel-control-prev,
+#valuable .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    background: var(--bg-gradient);
+    opacity: 1;
+    border-radius: 50%;
+    top: 30%;
+}
+
+#valuable .carousel-control-prev .carousel-control-prev-icon,
+#valuable .carousel-control-next .carousel-control-next-icon {
+    width: 16px;
+    height: 16px;
 }
