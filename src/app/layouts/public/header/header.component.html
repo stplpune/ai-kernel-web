@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg fixed-top" [ngClass]="isNavbarFixed?'fixed':'notfixed'" (scroll)="onScroll()">
     <div class="container">
         <a class="navbar-brand" routerLink="#">
             <h4><span class="text-gradient">AI</span> Kernel</h4>
@@ -19,57 +19,70 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" routerLink="home" routerLinkActive="active">Home</a>
+                        <a class="nav-link active" aria-current="page" routerLink="home"
+                            routerLinkActive="active">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" routerLink="#" routerLinkActive="active" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" routerLink="#" routerLinkActive="active" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Explore Charlie
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" routerLink="what-is-charlie" routerLinkActive="active">What is Charlie?</a></li>
-                            <li><a class="dropdown-item" routerLink="covid19-solutions" routerLinkActive="active">Covid-19 Solutions</a></li>
+                            <li><a class="dropdown-item" routerLink="what-is-charlie" routerLinkActive="active">What is
+                                    Charlie?</a></li>
+                            <li><a class="dropdown-item" routerLink="covid19-solutions"
+                                    routerLinkActive="active">Covid-19 Solutions</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" routerLink="#"  routerLinkActive="active" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" routerLink="#" routerLinkActive="active" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Industries We Serve
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" routerLink="retail" routerLinkActive="active">Retail</a></li>
-                            <li><a class="dropdown-item" routerLink="manufacturing" routerLinkActive="active">Manufacturing</a></li>
-                            <li><a class="dropdown-item" routerLink="infrastructure" routerLinkActive="active">Infrastructure</a></li>
-                            <li><a class="dropdown-item" routerLink="hospitality" routerLinkActive="active">Hospitality</a></li>
-                            <li><a class="dropdown-item" routerLink="smart-city" routerLinkActive="active">Smart City</a></li>
-                            <li><a class="dropdown-item" routerLink="public-sector" routerLinkActive="active">Public Sector</a></li>
+                            <li><a class="dropdown-item" routerLink="manufacturing"
+                                    routerLinkActive="active">Manufacturing</a></li>
+                            <li><a class="dropdown-item" routerLink="infrastructure"
+                                    routerLinkActive="active">Infrastructure</a></li>
+                            <li><a class="dropdown-item" routerLink="hospitality"
+                                    routerLinkActive="active">Hospitality</a></li>
+                            <li><a class="dropdown-item" routerLink="smart-city" routerLinkActive="active">Smart
+                                    City</a></li>
+                            <li><a class="dropdown-item" routerLink="public-sector" routerLinkActive="active">Public
+                                    Sector</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" routerLink="#" routerLinkActive="active" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" routerLink="#" routerLinkActive="active" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Resources
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" routerLink="insights-resources" routerLinkActive="active">Insights & Resources</a></li>
-                            <li><a class="dropdown-item" routerLink="publications" routerLinkActive="active">Publications</a></li>
+                            <li><a class="dropdown-item" routerLink="insights-resources"
+                                    routerLinkActive="active">Insights & Resources</a></li>
+                            <li><a class="dropdown-item" routerLink="publications"
+                                    routerLinkActive="active">Publications</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" routerLink="success-stories" routerLinkActive="active">Success Stories</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" routerLink="#" routerLinkActive="active" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" routerLink="#" routerLinkActive="active" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Company
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" routerLink="about-us" routerLinkActive="active">About Us</a></li>
-                            <li><a class="dropdown-item" routerLink="careers-cultures" routerLinkActive="active">Careers & Cultures</a></li>
+                            <li><a class="dropdown-item" routerLink="about-us" routerLinkActive="active">About Us</a>
+                            </li>
+                            <li><a class="dropdown-item" routerLink="careers-cultures" routerLinkActive="active">Careers
+                                    & Cultures</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link media" routerLink="charlie-media" routerLinkActive="active">CHARLIE in Media</a>
+                        <a class="nav-link media" routerLink="charlie-media" routerLinkActive="active">CHARLIE in
+                            Media</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link contact" routerLink="contact-us" routerLinkActive="active">Contact Us</a>

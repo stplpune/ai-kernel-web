@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  isNavbarFixed: boolean = false;
 
+  @HostListener('window:scroll', ['$event']) onScroll() {
+    if (window.scrollY > 100) {
+      this.isNavbarFixed = true;
+    } else {
+      this.isNavbarFixed = false;
+    }
+  }
 }
