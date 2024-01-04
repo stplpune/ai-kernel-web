@@ -1,18 +1,96 @@
 .charlie-banner {
-  // background-image: url(../../../../assets/images/contact-us-images/Contact-Us.png);
-  background-size: cover !important;
-  background-position: center;
-  height: 90vh;
-  background: -webkit-linear-gradient(rgb(22, 18, 45, 0.7), rgba(36, 21, 61, 0.5)), url("../../../../../assets/images/explore_charlie/charlies.png");
+    background-size: cover !important;
+    background-position: center;
+    height: 100vh;
+    background: -webkit-linear-gradient(rgb(22, 18, 45, 0.7), rgba(36, 21, 61, 0.5)), url("../../../../../assets/images/explore_charlie/charlies.png");
 }
-.ai-squre-img{
+
+.charlie-banner h1 {
+    font-size: 3.4rem;
+    font-weight: 200;
+}
+
+.charlie-banner a {
+    font-size: 0.8rem;
+    border: solid 1px var(--main-color);
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.charlie-banner a:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.charlie-banner img {
+    height: 50px;
+}
+
+#explore h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#explore p {
+    font-size: 0.85rem;
+    line-height: 1.6rem;
+}
+
+#explore a {
+    font-size: 0.85rem;
+    background: var(--bg-gradient);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+#explore a:hover {
+    background: var(--main-color);
+    color: #fff;
+}
+
+.point-icon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+#software h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+#software p {
+    font-size: 0.85rem;
+    margin-bottom: 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ai-squre-img {
     height: 300px;
     width: 300px;
 }
-.contact-us .carousel{
+
+.contact-us .carousel {
     position: absolute;
     left: 220px;
 }
+
 .Testimonials button.carousel-control-next {
     background-color: blue;
     position: relative;
@@ -21,6 +99,7 @@
     top: 130px;
     border-radius: 50%;
 }
+
 .Testimonials button.carousel-control-prev {
     background-color: blue;
     position: relative;
@@ -29,13 +108,15 @@
     top: 130px;
     border-radius: 50%;
 }
-.Testimonialsspan.carousel-control-prev-icon ,
-.Testimonialsspan.carousel-control-next-icon{
+
+.Testimonialsspan.carousel-control-prev-icon,
+.Testimonialsspan.carousel-control-next-icon {
     height: 20px !important;
 }
-.hand-shake-banner{
-  background-size: cover !important;
-  background-position: center;
-  height: 400px;
-  background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/page-retail/hand-shake.png");
+
+.hand-shake-banner {
+    background-size: cover !important;
+    background-position: center;
+    height: 400px;
+    background: -webkit-linear-gradient(rgb(22, 18, 45, 0.7), rgba(36, 21, 61, 0.5)), url("../../../../../assets/images/page-retail/hand-shake.png");
 }
