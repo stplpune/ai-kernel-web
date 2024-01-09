@@ -5,43 +5,89 @@
     height: 90vh;
     background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/page-retail/manager.png");
 }
-.key-features-banner{
-    background-size: cover !important;
-    background-position: center;
-    background: url("../../../../../assets/images/page-retail/key-features-banner.png");
+// #key-features-banner{
+//     background-size: cover !important;
+//     background-position: center;
+//     background: url("../../../../../assets/images/page-retail/key-features-banner.png");
+// }
+
+#key-features-banner h3{
+  padding: 30px 0px;
+  color: #0D0D0F !important;
 }
-.key-features-banner .card{
-   background-color: #eee;
+#key-features-banner .card.card-body{
+   background-color: #F6F6F6 !important;
    border: 0;
    border-radius: 15px;
 }
-.why-use-charlie{
+#key-features-banner .card.card-body h5,p{
+  // padding: 15px 0px;
+  margin-bottom: 0 !important;
+}
+#key-features-banner .card.card-body h5{
+  color: #292929 !important;
+}
+#key-features-banner .card.card-body p{
+  color: #4B4744 !important;
+}
+
+#why-use-charlie{
     background-size: cover !important;
     padding:15px;
     background-position: center;
     background: url("../../../../../assets/images/page-retail/why-use-charlie-banner.png");
 }
-.why-use-charlie .card{
+#why-use-charlie .card{
     border: 0;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.go-ahed{
+#go-ahed{
     background-size: cover !important;
     padding:40px;
     background-position: center;
     background: url("../../../../../assets/images/page-retail/go-ahed-banner.jpg");
 }
+#go-ahed button{
+  background-color: #fff;
+  color: #24153D;
+  font-weight: 600;
+  padding: 5px 30px;
+  border: 0;
+  border-radius: 30px;
+}
 .success-storys .card .card-footer{
     background-color: #23153B;
 }
-.hand-shake-banner{
-    background-size: cover !important;
-    background-position: center;
-    height: 400px;
-    background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/page-retail/hand-shake.png");
+#success_stories .carousel .carousel-control-prev,
+#testimonials .carousel .carousel-control-prev,
+#featured_content .carousel .carousel-control-prev,
+#our_clients .carousel .carousel-control-prev{
+  left: -5%;
+  top: 50%;
+  background-color: #000;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  padding: 5px;
 }
-.impact{
-    background-color: #FFFFFF;
+#success_stories .carousel .carousel-control-next,
+#testimonials .carousel .carousel-control-next,
+#featured_content .carousel .carousel-control-next,
+#our_clients .carousel .carousel-control-next{
+  right: -5%;
+  top: 50%;
+  background-color: #000;
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+  border-radius: 50%;
+}
+#impact_of_ai ul li,
+#impact_of_ai ul li::marker{
+  content: '\2192';
+  margin-right: 5px;
+  font-size: 0.85rem;
+  padding: 5px 0px;
 }
 .text-main{
     color: #F84A14;
@@ -50,36 +96,9 @@
     background-color: #F6F1FF;
     color: #24153D;
 }
-// .tech{
-//     top: 4598px;
-//     left: 354px;
-//     width: 250px;
-//     height: 71px;
-//     opacity: 1;
-// }
-// .micro{
-//     top: 4517px;
-//     left: 647px;
-//     width: 338px;
-//     height: 253px;
-//     opacity: 1;
-// }
-// .intel{
-
-//     top: 4517px;
-//     left: 647px;
-//     width: 338px;
-//     height: 253px;
-//     opacity: 1;
-// }
-// .raymond{
-
-//     top: 4517px;
-//     left: 647px;
-//     width: 338px;
-//     height: 253px;
-//     opacity: 1;
-// }
+.carousel-indicators [data-bs-target] {
+  display: none;
+}
 
 #testimonials img.ai_img{
   width: 350px;
@@ -95,6 +114,21 @@
   width: 600px;
   border: none;
   padding: 20px 40px;
+  height: 250px;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  /* top: 20px; */
 }
 
 #testimonials .card.card-body .carousel-indicators [data-bs-target]{
@@ -124,13 +158,10 @@
   padding: 0;
   position: relative;
 }
+#success_stories .carousel .carousel-control-prev{
+  left: -5%;
+}
 #success_stories .overlay{
-  // position: absolute;
-  // top: 0;
-  // background: linear-gradient(109deg, #0C0B1D 0%, #16122D 53%, #24153D 100%);
-  // background-image: url('../../../../../assets/images/industries_we_serve/card_overlay.svg');
-  // height: 100%;
-
   background: linear-gradient(109deg, #0C0B1D 0%, #16122D 53%, #24153D 100%);
 position: absolute;
 top: 0;
@@ -144,4 +175,22 @@ opacity: 0.5;
   top: 25%;
   left: 10%;
   color: #fff;
+}
+#hand-shake-banner{
+  background-size: cover !important;
+  background-position: center;
+  height: 400px;
+  background-image: url("../../../../../assets/images/page-retail/hand-shake.png");
+  padding: 0;
+  position: relative;
+}
+.clients_overlay{
+  background-color: #170f0ce0;
+  height: 400px;
+  padding: 0;
+}
+.cleints_overlay_text{
+  position: absolute;
+  top: 0;
+  left: 20%;
 }
