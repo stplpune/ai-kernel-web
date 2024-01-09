@@ -1,79 +1,248 @@
-.retail-banner{
-    // background-image: url(../../../../assets/images/contact-us-images/Contact-Us.png);
-    background-size: cover !important;
-    background-position: center;
+#hospital-banner {
+    width: 100%;
     height: 90vh;
-    background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/hospitality/content-girls-sharing-with-purchases.png");
+    background-image: -webkit-linear-gradient(rgb(5 4 10 / 80%), rgb(18 10 30 / 73%)),
+        url("../../../../../assets/images/industries_we_serve/Hospitality-image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.key-features-banner{
+
+#hospital-banner h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+#hospital-banner p {
+    font-size: 0.85rem;
+    font-weight: 100;
+    color: #fff;
+}
+
+#key-feature-banner {
+    width: 100%;
+    background-image: url("../../../../../assets/images/hospitality/key-features-banner.png");
     background-size: cover !important;
     background-position: center;
-    background: url("../../../../../assets/images/hospitality/key-features-banner.png");
+    background-repeat: no-repeat;
 }
-.why-use-charlie{
-    background-size: cover !important;
-    padding:15px;
-    background-position: center;
+
+#key-feature-banner .card {
+    height: 100%;
+    border: 0px;
+    background-color: #F6F6F6;
+    box-shadow: rgb(32 10 35 / 19%) 0px 2px 8px 0px;
+}
+
+.point-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#why-use-charlie h6,
+#success-stories .card .card-title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+#why-use-charlie p {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+#why-use-charlie .impact-of-video {
+    width: 100%;
     background: url("../../../../../assets/images/hospitality/why-use-charlie-banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-block: 36px;
 }
-.go-ahed{
+
+#why-use-charlie .impact-of-video .card {
+    border: 0px;
+    box-shadow: rgba(190, 33, 204, 0.2) 0px 2px 8px 0px;
+}
+
+.impact-of-video ul {
+    list-style-type: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.impact-of-video ul li {
+    padding-bottom: 8px;
+    padding-left: 10px;
+}
+
+.impact-of-video ul li::marker {
+    content: "\2192";
+    color: var(--main-color);
+}
+
+#our-client .carousel-item img {
+    height: 53px;
+    width: 190px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#our-client .carousel-control-prev,
+#our-client .carousel-control-next,
+#testimonial .carousel-control-prev,
+#testimonial .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    background: var(--bg-gradient);
+    opacity: 1;
+    border-radius: 50%;
+    top: 30%;
+}
+
+#our-client .carousel-control-prev .carousel-control-prev-icon,
+#our-client .carousel-control-next .carousel-control-next-icon,
+#testimonial .carousel-control-prev .carousel-control-prev-icon,
+#testimonial .carousel-control-next .carousel-control-next-icon {
+    width: 16px;
+    height: 16px;
+}
+
+#future-proof {
     background-size: cover !important;
-    padding:40px;
+    padding: 40px;
     background-position: center;
     background: url("../../../../../assets/images/page-retail/go-ahed-banner.jpg");
 }
-.hand-shake-banner{
-    background-size: cover !important;
-    background-position: center;
-    height: 400px;
-    background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/page-retail/hand-shake.png");
+
+#future-proof a {
+    background-color: #fff;
+    text-decoration: none;
+    color: #24153D;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 600;
 }
-.hospitality-list {
-    padding: 0;
+
+#future-proof a .arrow-right-icon {
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
 }
-.hospitality-list  li{
-    list-style-type: none !important;
-    line-height: 2rem;
+
+#future-proof a:hover {
+    background: var(--bg-gradient);
+    color: #fff;
 }
-.hospitality-list  li::before {
-    content: "\2192"; 
-    color: var(--main-color); 
-    margin-right: 5px;
-  }
-  .why-use-charlie .card{
-  box-shadow: rgba(190, 33, 204, 0.2) 0px 2px 8px 0px;
-  }
-  .hospitality-card{
-    border: 0;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 632px;
-    height: 100%;
+
+#testimonial .ai-image {
+    height: 350px;
+    width: 350px;
 }
-.ai-squre-img{
-    height: 300px;
-    width: 300px;
-}
-.hospitality .carousel{
+
+#testimonial .carousel {
     position: absolute;
-    left: 220px;
+    left: 280px;
+    right: 0px;
 }
-.hospitality  button.carousel-control-next {
-    background-color: blue;
-    position: relative;
-    width: 50px;
-    height: 50px;
-    top: 130px;
+
+#testimonial .carousel .card {
+    height: 100%;
+    border: 0px;
+    padding: 20px 30px;
+    box-shadow: rgba(190, 33, 204, 0.2) 0px 2px 8px 0px;
+}
+
+#testimonial .carousel .card .user-image {
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
 }
-.hospitality button.carousel-control-prev {
-    background-color: blue;
-    position: relative;
-    width: 50px;
-    height: 50px;
-    top: 130px;
-    border-radius: 50%;
+
+#testimonial .carousel .card h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--main-color);
+    margin-bottom: 0px;
 }
-span.carousel-control-prev-icon ,
-span.carousel-control-next-icon{
-    height: 20px !important;
+
+#testimonial .carousel .card p,
+#testimonial .carousel .card .card-text,
+#success-stories .card .card-text {
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 5px;
 }
+
+#success-stories .card .card-img-overlay {
+    top: unset !important;
+    bottom: 10px !important;
+}
+
+#rethink-smart-cities {
+    width: 100%;
+    height: 350px;
+    background: -webkit-linear-gradient(rgb(22, 18, 45, 0.7), rgba(36, 21, 61, 0.5)), 
+                url("../../../../../assets/images/page-retail/hand-shake.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+// .hospitality-list {
+//     padding: 0;
+// }
+
+// .hospitality-list li {
+//     list-style-type: none !important;
+//     line-height: 2rem;
+// }
+
+// .hospitality-list li::before {
+//     content: "\2192";
+//     color: var(--main-color);
+//     margin-right: 5px;
+// }
+
+// .why-use-charlie .card {
+//     box-shadow: rgba(190, 33, 204, 0.2) 0px 2px 8px 0px;
+// }
+
+// .hospitality-card {
+//     border: 0;
+//     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+//     width: 632px;
+//     height: 100%;
+// }
+
+
+
+// .hospitality .carousel {
+//     position: absolute;
+//     left: 220px;
+// }
+
+// .hospitality button.carousel-control-next {
+//     background-color: blue;
+//     position: relative;
+//     width: 50px;
+//     height: 50px;
+//     top: 130px;
+//     border-radius: 50%;
+// }
+
+// .hospitality button.carousel-control-prev {
+//     background-color: blue;
+//     position: relative;
+//     width: 50px;
+//     height: 50px;
+//     top: 130px;
+//     border-radius: 50%;
+// }
+
+// span.carousel-control-prev-icon,
+// span.carousel-control-next-icon {
+//     height: 20px !important;
+// }
