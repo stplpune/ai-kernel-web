@@ -6,7 +6,7 @@
 }
 
 .charlie-banner h1 {
-    font-size: 3.4rem;
+    font-size: 3rem;
     font-weight: 200;
 }
 
@@ -26,13 +26,18 @@
 }
 
 .charlie-banner img {
-    height: 50px;
+    height: 33px;
 }
-
+#explore{
+    background-color: #EDF8FC;
+}
 #explore h4 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 600;
     margin-bottom: 1rem;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+   
 }
 
 #explore p {
@@ -58,7 +63,9 @@
     width: 20px;
     margin-right: 5px;
 }
-
+#software h3 {
+font-family: sans-serif;
+}
 #software h6 {
     font-size: 1rem;
     margin-bottom: 1rem;
@@ -66,10 +73,9 @@
 }
 
 #software p {
-    font-size: 0.85rem;
+    font-size: 0.89rem;
     margin-bottom: 0rem;
 }
-
 
 
 
@@ -119,4 +125,111 @@
     background-position: center;
     height: 400px;
     background: -webkit-linear-gradient(rgb(22, 18, 45, 0.7), rgba(36, 21, 61, 0.5)), url("../../../../../assets/images/page-retail/hand-shake.png");
+}
+
+
+
+//Kajal Css
+.management{
+background-color: #EDF8FC;
+}
+.turning{
+    background-color: #191838;
+    font-family: sans-serif;
+}
+.turningpara{
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+.smartercctv{
+    border-radius: 25px;
+    background: #ffffff;
+    color: #9B4023;
+    font-size: 14px;
+    width: 12rem;
+}
+.profile{
+    font-size: 12px;
+}
+.btnmail{
+    background-color: #F64D26;
+    color: #ffffff;
+}
+.btnsearch{
+    border-radius: 0px;
+}
+
+
+#industries {
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("../../../../../assets/images/page-retail/hand-shake.png");
+    background-position: bottom;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+#industries .tab-content h1 {
+    font-size: 2.5rem;
+}
+
+#industries .tab-content h1,
+#industries .tab-content p {
+    color: #fff;
+}
+
+#industries .tab-content p {
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+#industries .tab-content h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#industries .tab-content a {
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: var(--main-color);
+    border: solid 1px var(--main-color);
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+#industries .tab-content a:hover {
+    background: var(--bg-gradient);
+    color: #fff;
+}
+
+#industries .tab-content a i {
+    margin-left: 5px;
+}
+
+#industries .tab-content .number {
+    background-color: #fff;
+    width: fit-content;
+    font-size: 9rem;
+    color: #E0EBED;
+    position: absolute;
+    top: -170px;
+    right: 13px;
+    width: 200px;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+}
+
+#industries .nav .nav-link {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+#industries .nav .nav-link.active,
+#industries .nav .nav-link:active,
+#industries .nav .nav-link:hover {
+    color: var(--main-color);
 }

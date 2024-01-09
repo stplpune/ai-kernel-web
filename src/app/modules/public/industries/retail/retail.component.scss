@@ -1,3 +1,10 @@
+.form-label,
+.form-check-label{
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #2A2A2A;
+}
+
 .retail-banner{
     // background-image: url(../../../../assets/images/contact-us-images/Contact-Us.png);
     background-size: cover !important;
@@ -5,38 +12,135 @@
     height: 90vh;
     background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/page-retail/beautiful-family-standing-cash-counter.png");
 }
+
+.overlay{
+  background: linear-gradient(109deg, #0C0B1D 0%, #16122D 53%, #24153D 100%);
+  position: relative;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+}
+.overlay_text{
+  position: absolute;
+  top: 0;
+}
+.retail-banner p{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 200;
+  padding: 30px 0px;
+}
+
+#key_features_retail_software h3{
+  padding-bottom: 30px;
+}
+#download_eguide_importance h3{
+  padding-bottom: 20px;
+}
+#download_eguide_importance h4{
+  color: #2A2A2A;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+#download_eguide_importance .form-label,
+.form-check-label{
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #2A2A2A;
+}
+#download_eguide_importance button {
+    font-size: 0.85rem;
+    background: var(--bg-gradient);
+    color: #fff;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    border: none;
+    text-decoration: none;
+}
+
+
 .key-features-banner{
     background-size: cover !important;
     background-position: center;
     background: url("../../../../../assets/images/page-retail/key-features-banner.png");
 }
-.key-features-banner .card{
-   background-color: #eee;
-   border: 0;
-   border-radius: 15px;
+
+#why-use-charlie h6.card_title{
+  color: #27262A;
+  font-weight: 600;
+  margin: 0 !important;
 }
-.why-use-charlie{
+#why-use-charlie{
     background-size: cover !important;
     padding:15px;
     background-position: center;
     background: url("../../../../../assets/images/page-retail/why-use-charlie-banner.png");
 }
-.why-use-charlie .card{
-    border: 0;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+#why-use-charlie .card{
+    border: 0 !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
 }
-.go-ahed{
+#go-ahed{
     background-size: cover !important;
     padding:40px;
     background-position: center;
-    background: url("../../../../../assets/images/page-retail/go-ahed-banner.jpg");
+    background-image: url("../../../../../assets/images/page-retail/go-ahed-banner.jpg") !important;
 }
-.success-storys .card .card-footer{
-    background-color: #23153B;
+#go-ahed button{
+  color: #24153D !important;
+  font-weight: 600;
 }
-.hand-shake-banner{
-    background-size: cover !important;
-    background-position: center;
-    height: 400px;
-    background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/page-retail/hand-shake.png");
+
+
+#success-storys{
+  padding: 100px 0px;
+  transition: 1s;
 }
+
+#success-storys .card .card-footer{
+    background-color: #23153B !important;
+    padding: 8px 0px;
+  transition: 1s !important;
+}
+#success-storys .card p{
+  display: none;
+  transition: 1s !important;
+}
+#success-storys .card:hover p{
+  display: block;
+  line-height: 2;
+  margin: 17px 0px;
+  transition: 1s !important;
+}
+#success-storys .card {
+  height: 400px !important;
+  transition: 1s;
+}
+#success-storys .card:hover .card-footer{
+  background: linear-gradient(90deg, #F0B95A 0%, #D7558F 49%, #5A83F0 100%);
+}
+
+#success-storys .card:hover img{
+  height: 150px;
+  width: 100%;
+  transition: 1s !important;
+}
+
+#get_in_touch{
+  background: -webkit-linear-gradient(#170F0C, rgba(36, 21, 61,0.5)), url("../../../../../assets/images/page-retail/hand-shake.png");
+  background-size: cover !important;
+  background-position: center;
+  height: 50vh;
+}
+
+#featured_content h4{
+  padding: 30px 0px;
+}
+
+// .hand-shake-banner{
+//     background-size: cover !important;
+//     background-position: center;
+//     height: 400px;
+//     background: -webkit-linear-gradient(rgb(22, 18, 45 , 0.7), rgba(36, 21, 61,0.5)), url("../../../../../assets/images/page-retail/hand-shake.png");
+// }
