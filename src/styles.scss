@@ -38,3 +38,612 @@ body {
 section {
     padding-block: 3rem;
 }
+
+header {
+    background-color: #191838;
+    color: #fff;
+    padding-top: 4rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+header h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+
+header h3 span {
+    font-weight: 800;
+}
+
+header p {
+    font-size: 0.85rem;
+    font-weight: 100;
+    line-height: 26px;
+}
+
+header a {
+    color: #fff;
+    border: solid 1px var(--main-color);
+    font-size: 0.85rem;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: linear-gradient(to left, transparent 50%, var(--main-color) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    margin-left: 10px;
+    transition: all 1s ease;
+}
+
+header a:hover {
+    color: #fff;
+    background-position: left bottom;
+}
+
+header video {
+    width: 100%;
+    height: 100%;
+}
+
+header #clients .card {
+    background-color: #353B46;
+    color: #fff;
+    text-align: center;
+}
+
+header #clients .card:hover {
+    background: var(--bg-gradient);
+}
+
+header #clients .card img {
+    width: 18px;
+    margin-right: 5px;
+}
+
+header #clients .card p {
+    margin-bottom: 0px;
+}
+
+header #statistics {
+    padding-block: 3rem;
+}
+
+header #statistics .card {
+    background-color: transparent;
+    border: none;
+}
+
+header #statistics .card:hover {
+    background-color: #07062B;
+}
+
+header #statistics img {
+    height: 30px;
+    margin-bottom: 1rem;
+    margin-right: auto;
+}
+
+header #statistics img.point {
+    height: 20px;
+    margin: 0;
+}
+
+header #statistics h5 {
+    margin-bottom: 0rem;
+}
+
+header #statistics p {
+    font-size: 0.85rem;
+    margin-bottom: 0rem;
+}
+
+#what-we-do {
+    background-color: #EEF9FD;
+}
+
+#what-we-do h3,
+#what-we-do h6 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#what-we-do p {
+    font-size: 0.85rem;
+    line-height: 1.7rem;
+}
+
+#what-we-do a {
+    font-size: 0.85rem;
+    background: var(--bg-gradient);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+#what-we-do #carouselCharlie img-comparison-slider,
+#what-we-do #carouselCharlie img {
+    width: 100%;
+    height: 350px;
+}
+
+#what-we-do #carouselCharlie .carousel-control-prev,
+#what-we-do #carouselCharlie .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background: var(--bg-gradient);
+    border-radius: 50%;
+}
+
+#what-we-do #carouselCharlie .carousel-control-prev .carousel-control-prev-icon,
+#what-we-do #carouselCharlie .carousel-control-next .carousel-control-next-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#what-we-do #carouselCharlie .carousel-indicators button {
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: var(--main-color);
+    margin-block: 0;
+    border-radius: 50%;
+}
+
+#industries {
+    // background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("../../../../assets/images/home/industries.png");
+    background-position: bottom;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+#industries .tab-content h1 {
+    font-size: 2.5rem;
+}
+
+#industries .tab-content h1,
+#industries .tab-content p {
+    color: #fff;
+}
+
+#industries .tab-content p {
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+#industries .tab-content h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#industries .tab-content a {
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: var(--main-color);
+    border: solid 1px var(--main-color);
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+#industries .tab-content a:hover {
+    background: var(--bg-gradient);
+    color: #fff;
+}
+
+#industries .tab-content a i {
+    margin-left: 5px;
+}
+
+#industries .tab-content .number {
+    background-color: #fff;
+    width: fit-content;
+    font-size: 9rem;
+    color: #E0EBED;
+    position: absolute;
+    top: -170px;
+    right: 13px;
+    width: 200px;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+}
+
+#industries .nav .nav-link {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+#industries .nav .nav-link.active,
+#industries .nav .nav-link:active,
+#industries .nav .nav-link:hover {
+    color: var(--main-color);
+}
+
+#implementation .icon-container {
+    border: solid 1px #aaa;
+    border-radius: 50%;
+    width: 85px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#implementation .separator {
+    width: 13%;
+    margin-top: 1rem;
+    margin-inline: 0.2rem;
+}
+
+#implementation .w-15 {
+    width: 15%;
+}
+
+#implementation .name {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#implementation .icon-container img {
+    width: 45px;
+}
+
+#platform {
+    background-color: #EEF9FD;
+}
+
+#platform h3 {
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+#platform p {
+    font-size: 0.85rem;
+}
+
+#platform .card {
+    border: none;
+    border-top: solid 5px var(--main-color);
+    border-radius: 0;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1607843137);
+}
+
+#platform .card-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+#platform .card-img-top {
+    height: 340px;
+    margin-bottom: 1rem;
+}
+
+#platform .carousel-control-prev,
+#platform .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background: var(--bg-gradient);
+    opacity: 1;
+    border-radius: 50%;
+    top: 43%;
+}
+
+#freedemo {
+    background-color: #191838;
+}
+
+#freedemo h3 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+#freedemo a {
+    background-color: #fff;
+    text-decoration: none;
+    color: var(--main-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+}
+
+#freedemo a:hover {
+    background: var(--bg-gradient);
+    color: #fff;
+}
+
+#awards {
+    background-color: #EEF9FD;
+}
+
+#awards h3 {
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+#awards p {
+    font-size: 0.85rem;
+}
+
+#awards .card {
+    border: none;
+    text-align: center;
+}
+
+#awards .card img {
+    width: 80px;
+    margin: 0 auto;
+}
+
+#awards .card .card-text {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+#valuable .nav-link {
+    font-size: 0.85rem;
+    color: #151515;
+    font-weight: 600;
+    padding-inline: 30px;
+}
+
+#valuable .nav-link.active {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+#valuable .tab-content {
+    padding-top: 2rem;
+}
+
+#valuable .tab-content img {
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#valuable .carousel-control-prev,
+#valuable .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    background: var(--bg-gradient);
+    opacity: 1;
+    border-radius: 50%;
+    top: 30%;
+}
+
+#valuable .carousel-control-prev .carousel-control-prev-icon,
+#valuable .carousel-control-next .carousel-control-next-icon {
+    width: 16px;
+    height: 16px;
+}
+
+#media {
+    background-color: #EEF9FD;
+}
+
+#media h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#media p {
+    font-size: 0.85rem;
+    line-height: 24px;
+}
+
+#media a.learnmore {
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: var(--main-color);
+    border: solid 1px var(--main-color);
+    padding: 8px 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+#media a.learnmore:hover {
+    background: var(--bg-gradient);
+    color: #fff;
+}
+
+#media #carouselMedia .carousel-item img {
+    height: 270px;
+    object-fit: cover;
+}
+
+#media #carouselMedia .carousel-control-prev,
+#media #carouselMedia .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background: var(--bg-gradient);
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#media #carouselMedia .carousel-control-prev .carousel-control-prev-icon,
+#media #carouselMedia .carousel-control-next .carousel-control-next-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#media #carouselMedia .carousel-indicators button {
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: #333;
+    margin-block: 0;
+    border-radius: 50%;
+}
+
+#media #carouselMedia .carousel-caption {
+    left: 5%;
+    top: 5%;
+    text-align: left;
+}
+
+#media #carouselMedia .carousel-caption span.badge {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#media #carouselMedia .carousel-caption h5 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+
+#media #carouselMedia .carousel-caption p {
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+
+#media #carouselMedia .carousel-caption a.read {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 7px 15px;
+    border-radius: 30px;
+    font-weight: 100;
+}
+
+#media #carouselMedia .carousel-caption a.read:hover {
+    background-color: #fff;
+    color: #151515;
+}
+
+#gettouch {
+    background-image: linear-gradient(0deg, #1E1D1D 0%, #1E1D1D 50%, #EEF9FD 50%, #EEF9FD 100%);
+}
+
+#gettouch #getbg {
+    background: var(--bg-gradient);
+    width: 80%;
+    padding: 30px;
+    color: #fff;
+}
+
+#gettouch #getbg h3 {
+    margin-bottom: 0.7rem;
+}
+
+#gettouch #getbg p {
+    margin-bottom: 0rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+#gettouch #getbg a {
+    font-size: 0.85rem;
+    color: var(--main-color);
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+#gettouch #getbg a:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    header h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    header p {
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    header #clients .card {
+        border-inline: none;
+        border-radius: 0;
+    }
+
+    header #statistics .card {
+        text-align: center;
+    }
+
+    header #statistics img {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    header #statistics p {
+        font-size: 0.75rem;
+    }
+
+    #what-we-do p {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
+    #industries .tab-content .number {
+        display: none;
+    }
+
+    #industries .tab-content p {
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.4rem;
+    }
+
+    #industries .tab-content h1 {
+        font-size: 1.8rem;
+    }
+
+    #industries .nav .nav-link {
+        font-size: 0.75rem;
+    }
+
+    #industries {
+        height: 55vh;
+    }
+
+    #industries .tab-content h3 {
+        font-size: 1.2rem;
+    }
+
+    #implementation .separator {
+        display: none;
+    }
+
+    #implementation .w-15 {
+        width: 30%;
+    }
+
+    #valuable .tab-content img {
+        height: 50px;
+    }
+
+    #gettouch #getbg {
+        width: 95%;
+        padding: 15px;
+    }
+}
